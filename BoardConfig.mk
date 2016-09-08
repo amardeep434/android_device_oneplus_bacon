@@ -52,6 +52,11 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_CONFIG := bacon_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
 
+#Kernel Toolchain
+TARGET_GCC_VERSION_ARM:=4.9
+#Rom Toolchain
+TARGET_GCC_VERSION_EXP:=4.9
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
