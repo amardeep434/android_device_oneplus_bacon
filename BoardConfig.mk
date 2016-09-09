@@ -51,12 +51,10 @@ BOARD_DTBTOOL_ARGS := -2
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_CONFIG := bacon_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
-#Kernel Toolchain
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-TARGET_GCC_VERSION_ARM:=KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
 #Rom Toolchain
-TARGET_GCC_VERSION_EXP:=4.9-uber
+TARGET_GCC_VERSION_EXP:= 4.9-
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
