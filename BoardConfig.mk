@@ -53,7 +53,8 @@ TARGET_KERNEL_CONFIG := bacon_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
 
 #Kernel Toolchain
-TARGET_GCC_VERSION_ARM:=4.9-uber
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_GCC_VERSION_ARM:=KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
 #Rom Toolchain
 TARGET_GCC_VERSION_EXP:=4.9-uber
 
