@@ -54,7 +54,7 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 #Rom Toolchain
-TARGET_GCC_VERSION_EXP:= 4.9-
+TARGET_GCC_VERSION_EXP:= 4.9
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
