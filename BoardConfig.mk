@@ -55,6 +55,10 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
 #Rom Toolchain
 TARGET_GCC_VERSION_EXP:= 4.9
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
